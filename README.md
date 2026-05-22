@@ -11,5 +11,4 @@ Email: gayatriravada187@gmail.com
 - PostgreSQL
 - Pandas, NumPy
 
-🔭 I’m currently working on Urban Crime Data Analytics
-📊 Tools: Python, SQL, Power BI, PostgreSQL
+
