@@ -18,7 +18,6 @@ Tools:
 Selected work
 ArcFace with sub-centers and hashed embeddings: Implemented ArcFace from the paper in PyTorch on an IR-50 backbone with RetinaFace alignment. Extended it with sub-center ArcFace for robustness to label noise, and added a SHA-256 hash layer so verification runs over hashed embeddings rather than raw ones. Written up as a full research report — formulation, geometric interpretation, related work, experimental design.
 
-
 📫 Connect: 
 LinkedIn: https://www.linkedin.com/in/gayatriravada/
 Email: gayatriravada187@gmail.com
