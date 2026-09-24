@@ -18,6 +18,8 @@ Tools:
 Selected work
 [ArcFace with sub-centers and hashed embeddings](https://github.com/Gayatri187/arcface-privacy-preserving-face-recognition) Implemented ArcFace from the paper in PyTorch on an IR-50 backbone with RetinaFace alignment. Extended it with sub-center ArcFace for robustness to label noise, and added a SHA-256 hash layer so verification runs over hashed embeddings rather than raw ones. Written up as a full research report — formulation, geometric interpretation, related work, experimental design.
 
+[Solar energy forecasting: from weather data to sky images](https://github.com/Gayatri187/solar-energy-forecasting) Rebuilt my undergraduate project as a research-style study on Stanford's SKIPP'D dataset. Cleaned three years of minute-level PV data, then forecast one hour ahead with Random Forest and Gradient Boosting, 12% better than smart persistence. Added calibrated uncertainty with conformalized quantile regression, whose 90% ranges hold their coverage even on cloudy days. Finally, trained a PyTorch CNN on sky-camera images for 15-minute forecasting, which beats the same model without images (skill 0.19 vs 0.12). Along the way I found and corrected a one-hour daylight-saving timestamp error in the published image data, using solar geometry.
+
 📫 Connect: 
 LinkedIn: https://www.linkedin.com/in/gayatriravada/
 Email: gayatriravada187@gmail.com
