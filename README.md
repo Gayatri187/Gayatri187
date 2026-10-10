@@ -20,6 +20,11 @@ Selected work
 
 [Solar energy forecasting: from weather data to sky images](https://github.com/Gayatri187/solar-energy-forecasting) Rebuilt my undergraduate project as a research-style study on Stanford's SKIPP'D dataset. Cleaned three years of minute-level PV data, then forecast one hour ahead with Random Forest and Gradient Boosting, 12% better than smart persistence. Added calibrated uncertainty with conformalized quantile regression, whose 90% ranges hold their coverage even on cloudy days. Finally, trained a PyTorch CNN on sky-camera images for 15-minute forecasting, which beats the same model without images (skill 0.19 vs 0.12). Along the way I found and corrected a one-hour daylight-saving timestamp error in the published image data, using solar geometry.
 
+[Seeing in the Dark: low-light detection for low-vision assistance](https://github.com/Gayatri187/low-light-assistive-detection)
+Showed with controlled ablations that sensor noise, not darkness, breaks YOLO at night; noise-augmented
+fine-tuning raised real-night mAP50 from 0.60 to 0.72 (+73% on heavily noisy images), with error analysis,
+real-time benchmarking, and a spoken-alert prototype. *PyTorch · YOLO26 · ONNX*
+
 📫 Connect: 
 LinkedIn: https://www.linkedin.com/in/gayatriravada/
 Email: gayatriravada187@gmail.com
